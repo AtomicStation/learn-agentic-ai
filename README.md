@@ -1,10 +1,18 @@
 # RAG Chatbot using LangChain and LangGraph
 
-Creating a chatbot using open source components.
+Creating a chatbot using open source components. Repository has been expanded to go through various components and tutorials on how to use LangGraph.
 
-Stack:
+## Repository Map
+### notebooks/
+Contains notebooks going through various tutorials and lessons on how to test and apply certain topics.
+
+### scripts/
+Python scripts for interacting with applications through the terminal. Offers real time interaction with the LLMs and agents.
+
+## Agentic RAG Chatbot
+### Stack:
 - Framework: LangChain, LangGraph, LangSmith
-- LLM: Ollama (llama3.1)
+- LLM: llama3.1:8B and qwen2.5:32b via Ollama
 - Vector Store: Chroma
 - UI: Streamlit
 - Memory: SQLite
@@ -20,4 +28,5 @@ Development will iterate through:
 ## Set up
 1. Use a virtual environment
 2. Install requirements.txt
-3. Create .env file similar to .env-example file
+3. Create `.env` file similar to `.env-example` file
+4. Use the correct kernal for each notebook (Python 3.12 is ideal)
