@@ -3,11 +3,32 @@
 Creating a chatbot using open source components. Repository has been expanded to go through various components and tutorials on how to use LangGraph.
 
 ## Repository Map
-### notebooks/
+### 📁 img/
+Contains image files used in notebooks and this README.
+### 📁 notebooks/
 Contains notebooks going through various tutorials and lessons on how to test and apply certain topics.
 
-### scripts/
+|Filename|Summary|completed|
+| --- | --- | --- |
+|agentic_ag_example.ipynb| |✅|
+|lanchain_101| |❌|
+|langgraph_memory| |❌|
+|lg_customized_state| |❌|
+|lg_timetravel| |❌|
+
+### 📁 scripts/
 Python scripts for interacting with applications through the terminal. Offers real time interaction with the LLMs and agents.
+
+|Filename|Summary|completed|
+|---|---|---|
+|chatbot_memory| |❌|
+|graph_interrupt| |❌|
+
+### Other files
+- **.env-example** - Template for setting up the .env file
+- **.gitignore** - List of files that are ignored when pushing local to remote repos
+- **README.md** - this file!
+- **requirements.txt** - List of Python packages required for using the code found in this repo
 
 ## Agentic RAG Chatbot
 ### Stack:
